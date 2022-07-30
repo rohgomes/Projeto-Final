@@ -2,7 +2,7 @@ import Header from '../../Componentes/Header/Header'
 import Textos from '../../Componentes/Textos/Textos'
 import Footer from '../../Componentes/Footer/Footer'
 import corpo1 from '../../assets/corpo1.png'
-import desenho from '../../assets/desenho.jpeg'
+import equilibrio from '../../assets/equilibrio.jpeg'
 
 import './inicio.css'
 
@@ -98,7 +98,7 @@ function Inicio() {
                         moldáveis para o benefício humano é estapafúrdia. Uma pessoa gorda tem o direito de sê-lo e deve ser respeitada em 
                         todos os âmbitos de sua existência sem a pressão de mudar seu corpo.
                     </Textos>
-                    <img src={desenho} className='img2' alt="ilustração de uma mulher gorda sentada, meditando"
+                    <img src={equilibrio} className='img2' alt="ilustração de uma mulher gorda sentada, meditando"
                             />
                     <Textos>
                         Ao longo da história da humanidade ficou comprovado que seres humanos são completamente capazes de pensar em soluções 
