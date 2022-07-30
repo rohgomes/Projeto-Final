@@ -1,6 +1,12 @@
 import Header from '../../Componentes/Header/Header'
-import Textos from '../../Componentes/Textos/Textos'
 import Footer from '../../Componentes/Footer/Footer'
+import frachel from '../../assets/frachel.jpeg'
+import fat from '../../assets/fat.jpg'
+import marcela from '../../assets/marcela.jpg'
+import lary from '../../assets/lary.jpg'
+import lollaboo from '../../assets/lollaboo.png'
+import danielle from '../../assets/danielle.jpeg'
+import rafael from '../../assets/rafael.jpeg'
 
 import './indicacoes.css'
 
@@ -17,7 +23,7 @@ function Indicacoes() {
                 <div className='container-cards'>
                 <div className='card-1'>
                         <div className="card-topo">
-                        <img src='../src/assets/frachel.jpeg' className="imagem" alt="foto da Rachel, com óculos preto, cabelos longos vermelho e batom vermelho"
+                        <img src={frachel} className="imagem" alt="foto da Rachel, com óculos preto, cabelos longos vermelho e batom vermelho"
                             />
                         </div>
                         <div className="card-corpo">
@@ -35,7 +41,7 @@ function Indicacoes() {
                     </div>
                     <div className='card'>
                         <div className="card-topo">
-                            <img src="../src/assets/fat.jpg" className="imagem" alt="logo da FAT, fundo branco com letras em cor de rosa"
+                            <img src={fat} className="imagem" alt="logo da FAT, fundo branco com letras em cor de rosa"
                             />
                         </div>
                         <div className="card-corpo">
@@ -56,7 +62,7 @@ function Indicacoes() {
                     </div>
                     <div className='card-1'>
                         <div className="card-topo">
-                            <img src='../src/assets/marcela.jpg' className="imagem" alt="foto da Marcela com óculos, tiara nos cabelos cacheados curtos e blusa vermelha"
+                            <img src={marcela} className="imagem" alt="foto da Marcela com óculos, tiara nos cabelos cacheados curtos e blusa vermelha"
                             />
                         </div>
                         <div className="card-corpo">
@@ -78,7 +84,7 @@ function Indicacoes() {
 
                     <div className='card'>
                         <div className="card-topo">
-                            <img src='../src/assets/lary.jpg' className="imagem" alt="foto de Lary, com óculos, cabelos ruivos curtos e jaqueta."
+                            <img src={lary} className="imagem" alt="foto de Lary, com óculos, cabelos ruivos curtos e jaqueta."
                             />
                         </div>
                         <div className="card-corpo">
@@ -101,7 +107,7 @@ function Indicacoes() {
 
                     <div className='card-1'>
                         <div className="card-topo">
-                            <img src='../src/assets/lollaboo.png' className="imagem" alt="logo da Lollaboo, fundo branco e letras em preto"
+                            <img src={lollaboo} className="imagem" alt="logo da Lollaboo, fundo branco e letras em preto"
                             />
                         </div>
                         <div className="card-corpo">
@@ -121,7 +127,7 @@ function Indicacoes() {
 
                     <div className='card'>
                         <div className="card-topo">
-                            <img src='../src/assets/danielle.jpeg' className="imagem" alt="logo da Lollab"
+                            <img src={danielle} className="imagem" alt="logo da Lollab"
                             />
                         </div>
                         <div className="card-corpo">
@@ -139,7 +145,7 @@ function Indicacoes() {
 
                     <div className='card'>
                         <div className="card-topo">
-                            <img src='../src/assets/rafael.jpeg' className="imagem" alt="foto de Rafael, com óculos, cabelos curtos verdes, barba preta, piercing de argola no cépto nasal e camisa branca"
+                            <img src={rafael} className="imagem" alt="foto de Rafael, com óculos, cabelos curtos verdes, barba preta, piercing de argola no cépto nasal e camisa branca"
                             />
                         </div>
                         <div className="card-corpo">

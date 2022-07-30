@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.png'
 import './menu.css'
 
 function Menu() {
@@ -6,7 +7,7 @@ function Menu() {
         <>
             <div className='container-menu'>
                 <div className='div-logo'>
-                    <img className='logo' src='../src/assets/logo.png'/>
+                    <img className='logo' src={logo}/>
                 </div>
                 <div className='div-menu'>
                     <ul className="menu">

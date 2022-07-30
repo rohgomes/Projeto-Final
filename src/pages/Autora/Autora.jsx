@@ -1,6 +1,8 @@
 import Header from '../../Componentes/Header/Header'
 import Textos from '../../Componentes/Textos/Textos'
 import Footer from '../../Componentes/Footer/Footer'
+import robertag from '../../assets/robertag.jpeg'
+import logo from '../../assets/logo.png'
 import './autora.css'
 
 function Autora() {
@@ -11,7 +13,7 @@ function Autora() {
             </Header>
 
             <div className='div-img-fim'>
-                <img src="../src/assets/logo.png" className='img3' alt="logo da página"/>
+                <img src={logo} className='img3' alt="logo da página"/>
             </div>
        
             <Textos>
@@ -25,7 +27,7 @@ function Autora() {
                 Gordes maiores existem e não precisam odiar seus corpos e muito menos viver as margens da sociedade.
             </Textos>
             <div className='div-img-fim'>
-                <img src="../src/assets/robertag.jpeg" className='img4' alt="foto da desenvolvedora da página"/>
+                <img src={robertag} className='img4' alt="foto da desenvolvedora da página"/>
             </div>
             <Textos>
                 Eu sou Maria Roberta, gorda maior, mulher cis, lésbica, mãe de pet e desenvolvedora front-end em formação e atualmente

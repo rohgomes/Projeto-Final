@@ -1,6 +1,8 @@
 import Header from '../../Componentes/Header/Header'
 import Textos from '../../Componentes/Textos/Textos'
 import Footer from '../../Componentes/Footer/Footer'
+import corpo1 from '../../assets/corpo1.png'
+import desenho from '../../assets/desenho.jpeg'
 
 import './inicio.css'
 
@@ -36,8 +38,7 @@ function Inicio() {
                         estilo, temos que conquistar o direito de todas as pessoas gordas se 
                         vestirem para cobrir a nudez e ao menos conseguirem sair de casa. 
                     </Textos>
-                    <img src="../src/assets/corpo1.jpeg" className='img2' alt="ilustração trondo de um corpo gordo nú"
-                            />
+                    <img src={corpo1} className='img2' alt="ilustração trondo de um corpo gordo nú"/>
                     <Textos>
                         O que temos no mercado de moda plus size atualmente é claramente insuficiente 
                         para atender às necessidades da comunidade gorda, mesmo as gordas menores, visto 
@@ -97,7 +98,7 @@ function Inicio() {
                         moldáveis para o benefício humano é estapafúrdia. Uma pessoa gorda tem o direito de sê-lo e deve ser respeitada em 
                         todos os âmbitos de sua existência sem a pressão de mudar seu corpo.
                     </Textos>
-                    <img src="../src/assets/equilibrio.jpeg" className='img2' alt="ilustração de uma mulher gorda sentada, meditando"
+                    <img src={desenho} className='img2' alt="ilustração de uma mulher gorda sentada, meditando"
                             />
                     <Textos>
                         Ao longo da história da humanidade ficou comprovado que seres humanos são completamente capazes de pensar em soluções 
