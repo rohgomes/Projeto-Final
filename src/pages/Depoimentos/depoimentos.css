@@ -1,0 +1,109 @@
+.list {
+  background-color: #D9B596;
+  border-radius: 1rem;
+  padding: 70px 60px;
+  margin: 0 auto;
+  display: block;
+}
+   
+h2 {
+  color: rgb(201, 191, 191);
+  font-size: 2.25rem;
+  }
+    
+input {
+  padding: 5rem;
+  border-radius: 30px;
+  width: 12rem;
+}
+
+.input-container {
+  width: 100%; 
+  padding: 10px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+    
+button {
+  border-radius: 8px;
+  border: 0;
+  color: #e78c3d;
+  padding: 14px;
+} 
+    
+.add-container {
+  display: inline-grid;
+}
+    
+.add-task {
+  background: #e78c3d;
+  width: 350px;
+}
+    
+main {
+  width: 100%;
+  height: 50rem;
+}
+
+.div-relato {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 1rem;
+
+}
+
+.relato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+  height: 10rem;
+  background-color: #e78c3d;
+  padding: 20px;
+  margin-left: -20px;
+  border-radius: 30px;
+}
+
+.relato1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  width: 30rem;
+  height: 10rem;
+  background-color: #e78c3d;
+  padding: 20px;
+  border-radius: 30px;
+}
+    
+.list-items {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 30px;
+}
+    
+.list-items > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  width: 30rem;
+  height: 10rem;
+  background-color: #e78c3d;
+  padding: 20px;
+  border-radius: 30px;
+}
+  
+.list-items li div p {
+  font-size: 1.2rem;
+  color: #111; 
+}
